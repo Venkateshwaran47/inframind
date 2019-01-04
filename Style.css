@@ -1,0 +1,151 @@
+.img
+{
+    background-image:url("Picture1.png");
+    background-size: cover;
+    height:100%;
+} 
+#img{
+    background-image: url("Picture4.png");
+    background-size: cover;
+   
+}
+
+#member
+{
+    letter-spacing: 1px;
+    margin-top: 90px;
+    color: black;
+    text-align: center;
+    font-family: 'Cinzel Decorative';
+    font-size: 40px;
+}
+
+#claid
+{
+    letter-spacing: 10px;
+    color: black;
+    margin: 15px;
+    text-align: center;
+    font-family: 'lucida Sans';
+    font-size: 40px;
+}
+
+input[type=text] 
+{
+    font-family: 'lucida sans';
+    font-size: 20px;
+    margin-left: 20px;
+    width: 90%;
+    padding-left: 5px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+input[type=text]:hover
+{
+    border-bottom: 1.5px solid white;
+}
+
+input[type=url]
+{
+    font-size: 20px;
+    margin-left: 20px;
+    width: 90%;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1.5px solid black;
+    box-sizing: border-box;
+}
+::placeholder
+{
+    color: grey;
+    font-family: 'Ludacia Sans';
+    font-style: oblique ;
+    letter-spacing: 3px;
+    font-size: 17px;
+    opacity: 1;
+}
+input[type=url]:hover
+{
+    border-bottom: 1.5px solid white;
+}
+
+input[type=submit]
+ {
+    outline: none;
+    width:30%;
+    border-radius: 120%;
+    border: whitesmoke;
+    margin-left:-185%;
+    padding: 40px ;
+    background-color: transparent;
+    margin-top: 57%;
+    color:transparent;
+  
+    
+    
+}
+
+input[type=submit]:hover
+{
+    border: 1px solid rgb(1, 87, 109);
+    cursor: pointer;
+    color:transparent;
+    background-color:rgba(255, 180, 4, 0.253);
+} 
+
+input[type=button]
+{  
+    outline: none;
+    width:50%;
+    border-radius: 50px;
+    border: whitesmoke;
+    margin: 40px ;
+    padding: 10px ;
+    background-image: url("download.png");
+    background-repeat: no-repeat;
+
+}
+
+button:hover
+{
+    border: 1px solid rgb(255, 180, 4);
+    cursor: pointer;
+    background-color: white;
+    color: rgb(255, 180, 4)
+}
+
+
+
+.formclass
+{
+    align-content: center;   
+    line-height: 8mm;
+    justify-content: right;
+    width: 350px;
+}
+
+.mainClass
+{
+    margin-left: auto;
+}
+.signclass
+{
+    margin-left: 60%;
+    margin-top: 50%;
+    
+}
+
+.vl {
+    border-left: 2px solid rgb(83, 95, 94);
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top:60px;
+  }
